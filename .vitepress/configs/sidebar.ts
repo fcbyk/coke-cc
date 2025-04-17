@@ -3,9 +3,10 @@ export default [
         text: '如何练习',
         collapsed: true,
         items: [
-            { text: '环境配置', link: '/start/01' },
-            { text: '信奥赛', link: '/start/02' },
-            { text: '如何进行练习', link: '/start/00' },
+            { text: '在线编译网站', link: '/start/01' },
+            { text: '安装 Dev C++', link: '/start/02' },
+            { text: '安装 Clion', link: '/start/03' },
+            { text: '盛通教育在线测评系统', link: '/start/04' },
         ]
     },
     {
