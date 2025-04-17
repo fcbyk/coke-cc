@@ -9,7 +9,7 @@ export default [
         ]
     },
     {
-        text: '课后作业',
+        text: '练习题',
         collapsed: true,
         items: [
             { text: '1 Hello World', link: '/homework/unit01/' },
@@ -17,6 +17,8 @@ export default [
             { text: '3 ASCII码', link: '/homework/unit03/' },
             { text: '4 算术运算符', link: '/homework/unit04/' },
             { text: '5 关系运算符与逻辑运算符', link: '/homework/unit05/' },
+            { text: '6 程序流程图', link: '/homework/unit06/' },
+            { text: '7 if条件语句', link: '/homework/unit07/' },
         ]
     }
 ]
