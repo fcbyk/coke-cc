@@ -10,6 +10,13 @@ export default [
         ]
     },
     {
+        text: '课堂回顾',
+        collapsed: true,
+        items: [
+            { text: '1 初识C++', link: '/notes/01' },
+        ]
+    },
+    {
         text: '练习题',
         collapsed: true,
         items: [

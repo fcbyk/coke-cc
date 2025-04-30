@@ -2,6 +2,7 @@ import DefaultTheme from 'vitepress/theme'
 import PasswordProtected from '../components/PasswordProtected.vue'
 import RunningResult from '../components/RunningResult.vue'
 import Badge from '../components/Badge.vue'
+import QA from '../components/QA.vue'
 import type { EnhanceAppContext } from 'vitepress'
 
 
@@ -12,5 +13,6 @@ export default {
     ctx.app.component('PasswordProtected', PasswordProtected)
     ctx.app.component('RunningResult', RunningResult)
     ctx.app.component('Badge', Badge)
+    ctx.app.component('QA', QA)
   }
 }
