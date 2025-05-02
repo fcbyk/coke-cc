@@ -31,6 +31,7 @@ export default [
             { text: '5 关系运算符与逻辑运算符', link: '/homework/unit05/' },
             { text: '6 程序流程图', link: '/homework/unit06/' },
             { text: '7 if条件语句', link: '/homework/unit07/' },
+            { text: '8 switch语句', link: '/homework/unit08/' },
         ]
     }
 ]
