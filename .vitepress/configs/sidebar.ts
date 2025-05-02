@@ -16,9 +16,6 @@ export default [
             { text: '1 初识C++', link: '/notes/01' },
             { text: '2 初识变量', link: '/notes/02' },
             { text: '3 ASCII码', link: '/notes/03' },
-            { text: '4 算术运算符', link: '/notes/04' },
-            { text: '5 关系运算符与逻辑运算符', link: '/notes/05' },
-            { text: '6 程序流程图', link: '/notes/06' },
             { text: '7 if条件语句', link: '/notes/07' },
             { text: '8 switch语句', link: '/notes/08' },
         ]

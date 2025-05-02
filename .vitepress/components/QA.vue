@@ -12,6 +12,10 @@ const props = defineProps({
   level: {
     type: String,
     default: ''
+  },
+  badge: {
+    type: String,
+    default: ''
   }
 })
 
@@ -42,6 +46,7 @@ const badgeClass = computed(() => {
       <div class="qa-header" @click="toggleReveal">
         <div :class="badgeClass">问</div>
         <h3 class="question-title">{{ question }}</h3>
+        <div v-if="badge" class="custom-badge">{{ badge }}</div>
         <div 
           class="toggle-icon" 
           :class="{ 'is-open': isRevealed, 'dark-mode': isDark }"
@@ -433,5 +438,23 @@ const badgeClass = computed(() => {
 
 .level-tip.is-open.dark-mode {
   border-color: rgba(var(--vp-c-brand-rgb), 0.7);
+}
+
+.custom-badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  margin-left: 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1;
+  border-radius: 4px;
+  background-color: #e91e63;
+  color: white;
+  box-shadow: 0 2px 4px rgba(233, 30, 99, 0.3);
+}
+
+.dark-mode .custom-badge {
+  background-color: rgba(233, 30, 99, 0.85);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3), 0 0 2px rgba(233, 30, 99, 0.5);
 }
 </style> 
