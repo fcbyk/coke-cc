@@ -33,7 +33,7 @@ watch(password, () => {
     <div class="custom-prompt">
       <p class="prompt-message">输入密码才能查看参考答案噢</p>
       <p>
-        <input v-model="password" type="password" class="password-input" @keydown.enter="checkPassword"
+        <input v-model="password" class="password-input" @keydown.enter="checkPassword"
           placeholder="点击此处输入密码" />
         <button @click="checkPassword">验证</button>
       </p>

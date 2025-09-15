@@ -1,9 +1,9 @@
 import DefaultTheme from 'vitepress/theme'
 import PasswordProtected from '../components/PasswordProtected.vue'
 import RunningResult from '../components/RunningResult.vue'
-import Badge from '../components/Badge.vue'
-import QA from '../components/QA.vue'
+import CokeUI from '@fcbyk/vue-ui'
 import type { EnhanceAppContext } from 'vitepress'
+import '@fcbyk/vue-ui/style.css'
 
 
 export default {
@@ -12,7 +12,7 @@ export default {
     DefaultTheme.enhanceApp(ctx)
     ctx.app.component('PasswordProtected', PasswordProtected)
     ctx.app.component('RunningResult', RunningResult)
-    ctx.app.component('Badge', Badge)
-    ctx.app.component('QA', QA)
+    // 注册组件库
+    ctx.app.use(CokeUI)
   }
 }

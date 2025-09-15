@@ -17,7 +17,14 @@ export default defineConfig({
     outline: [2, 3],
 
     nav: [
-      { text: '思维导图', link: 'https://www.yuque.com/fcbyk/coke/bg7fvqckefgngy1f' },
+      { text: '语雀思维导图', link: 'https://www.yuque.com/fcbyk/coke/bg7fvqckefgngy1f' },
+      {
+        text: '课堂代码',
+        items: [
+          { text: 'GitHub', link: 'https://github.com/fcbyk/coke-cc' },
+          { text: 'Gitee', link: 'https://gitee.com/fcbyk/coke-cc' },
+        ]
+      }
     ],
 
     sidebar,
@@ -32,6 +39,10 @@ export default defineConfig({
       next: '下一篇'
     },
 
-    search
+    search,
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/fcbyk/coke-cc-notes' }
+    ],
   }
 })
