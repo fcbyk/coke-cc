@@ -6,6 +6,7 @@ export default [
             {text:"C++概述",link:"/qa/01"},
             {text:"环境配置",link:"/qa/02"},
             {text:"CMake构建工具",link:"/qa/03"},
+            {text:"递归",link:"/qa/10"},
         ]
     },
     {
