@@ -1,6 +1,8 @@
 # C++ 路线
 
-<ClearCache/>
+<ClientOnly>
+  <ClearCache />
+</ClientOnly>
 
 ## 基础语法学习
 

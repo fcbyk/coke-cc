@@ -110,9 +110,6 @@ const clearBrowserCache = async () => {
     const urlsToRefresh = [
       '/',
       '/index.html',
-      '/main.js',
-      '/main.css',
-      // 可以添加其他需要刷新的资源路径
     ];
     
     await Promise.all(urlsToRefresh.map(url => {
