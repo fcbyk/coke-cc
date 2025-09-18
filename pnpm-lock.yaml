@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@fcbyk/vue-ui':
-        specifier: 0.0.1-alpha.2
-        version: 0.0.1-alpha.2(vue@3.5.13)
+        specifier: 0.0.1-alpha.3
+        version: 0.0.1-alpha.3(vue@3.5.13)
     devDependencies:
       vitepress:
         specifier: ^1.6.3
@@ -268,8 +268,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@fcbyk/vue-ui@0.0.1-alpha.2':
-    resolution: {integrity: sha512-W2s+/5q6GlqE3a/WdXoqLcp4A2neEDtdwakfll/Xf4JnGo27A8F64/H0VWhlMazJC+6gPo0VhZUtkOHea2hLhw==}
+  '@fcbyk/vue-ui@0.0.1-alpha.3':
+    resolution: {integrity: sha512-Lh3CM4v/VVJPAVPmkuGHT5Bl82hN85yUAsQ6n9eNKMCYG7uoEphToFIeCeaE74Sjy+gC2ACqwLt9kiQUcbXgpA==}
     peerDependencies:
       vue: ^3.3.0
 
@@ -994,7 +994,7 @@ snapshots:
   '@esbuild/win32-x64@0.21.5':
     optional: true
 
-  '@fcbyk/vue-ui@0.0.1-alpha.2(vue@3.5.13)':
+  '@fcbyk/vue-ui@0.0.1-alpha.3(vue@3.5.13)':
     dependencies:
       vue: 3.5.13
 

@@ -9,6 +9,6 @@
   },
   "packageManager": "pnpm@10.4.1",
   "dependencies": {
-    "@fcbyk/vue-ui": "0.0.1-alpha.2"
+    "@fcbyk/vue-ui": "0.0.1-alpha.3"
   }
 }
