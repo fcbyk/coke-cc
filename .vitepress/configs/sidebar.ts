@@ -12,6 +12,7 @@ export default [
                     {text:"CLion常见问题 ",link:"/qa/04"}
                 ]
             },
+            {text:"变量",link:"/qa/05"},
             {text:"递归",link:"/qa/10"},
             {text:"指针",link:"/qa/11"},
         ]
