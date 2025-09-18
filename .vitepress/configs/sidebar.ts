@@ -7,6 +7,7 @@ export default [
             {text:"环境配置",link:"/qa/02"},
             {text:"CMake构建工具",link:"/qa/03"},
             {text:"递归",link:"/qa/10"},
+            {text:"指针",link:"/qa/11"},
         ]
     },
     {
@@ -14,6 +15,7 @@ export default [
         collapsed: true,
         items: [
             {text:"Hello World",link:"/reading/hello/"},
+            {text:"指针",link:"/reading/pointer/"},
         ]
     },
     {
