@@ -22,7 +22,7 @@ coke-cc/
 - 推荐只编译当天写的代码文件
 
 ```cmake
-// 指定哪些源文件要编译为exe可执行程序
+# 指定哪些源文件要编译为exe可执行程序
 add_executable(app1 09-13/app1.cpp)
 add_executable(app2 09-13/app2.cpp)
 add_executable(app3 09-13/app3.cpp)
