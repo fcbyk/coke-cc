@@ -7,7 +7,7 @@ using namespace std;
  * 输入：每块冰的承重
  * 输出：小白能否过河见到小企鹅
  */
-int main(){
+int main1(){
 
     int i = 1;
     int chengZhong;

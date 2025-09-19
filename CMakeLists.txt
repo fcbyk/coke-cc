@@ -10,7 +10,7 @@ project(CokeCC)
 set(CMAKE_CXX_STANDARD 14)
 
 # 添加一个名为 app1 的可执行文件
-add_executable(app1 09-18/app1.cpp)
-add_executable(app2 09-18/app2.cpp)
-add_executable(app3 09-18/app3.cpp)
-add_executable(app4 09-18/app4.cpp)
+add_executable(app1 09-19/app1.cpp)
+add_executable(cpp2 09-19/app2.cpp)
+add_executable(app3 09-19/app3.cpp)
+add_executable(app4 09-19/app4.cpp)
