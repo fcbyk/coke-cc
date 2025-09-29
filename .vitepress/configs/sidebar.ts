@@ -3,17 +3,10 @@ export default [
         text: '理论知识',
         collapsed: true,
         items: [
-            {
-                text: "起步",
-                items:[
-                    {text:"C++概述",link:"/qa/01"},
-                    {text:"环境配置",link:"/qa/02"},
-                    {text:"CMake构建工具",link:"/qa/03"},
-                    {text:"CLion常见问题 ",link:"/qa/04"}
-                ]
-            },
+            {text: "开始",link:"/qa/hello/"},
             {text:"变量",link:"/qa/05"},
             {text:"数据类型",link:"/qa/06"},
+            {text:"运算符",link:"/qa/operator/"},
             {text:"递归",link:"/qa/10"},
             {text:"指针",link:"/qa/11"},
         ]
