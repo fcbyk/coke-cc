@@ -7,6 +7,7 @@ export default [
             {text:"变量",link:"/qa/05"},
             {text:"数据类型",link:"/qa/06"},
             {text:"运算符",link:"/qa/operator/"},
+            {text:"控制语句",link:"/qa/control/"},
             {text:"递归",link:"/qa/10"},
             {text:"指针",link:"/qa/11"},
         ]
