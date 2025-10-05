@@ -32,7 +32,7 @@ export default [
         collapsed: true,
         items: [
             {text:"刷题平台",link:"/coding/01"},
-            {text:"交换练习",link:"/coding/swap"},
+            {text:"新手村",link:"/coding/begin/"},
         ]
     }
 ]
