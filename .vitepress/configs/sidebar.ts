@@ -22,6 +22,7 @@ export default [
         collapsed: true,
         items: [
             {text:"Hello World",link:"/reading/hello/"},
+            {text:"变量与数据类型",link:"/reading/var/"},
             {text:"函数",link:"/reading/function/"},
             {text:"递归",link:"/reading/recursion/"},
             {text:"指针",link:"/reading/pointer/"},
