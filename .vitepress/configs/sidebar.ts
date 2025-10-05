@@ -23,6 +23,7 @@ export default [
         items: [
             {text:"Hello World",link:"/reading/hello/"},
             {text:"函数",link:"/reading/function/"},
+            {text:"递归",link:"/reading/recursion/"},
             {text:"指针",link:"/reading/pointer/"},
         ]
     },
