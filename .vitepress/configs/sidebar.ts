@@ -22,6 +22,7 @@ export default [
         collapsed: true,
         items: [
             {text:"Hello World",link:"/reading/hello/"},
+            {text:"函数",link:"/reading/function/"},
             {text:"指针",link:"/reading/pointer/"},
         ]
     },
