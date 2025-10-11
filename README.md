@@ -5,6 +5,7 @@
 ```text
 coke-cc/
 ├── docs              vitepress笔记文件
+├── example           示例代码（读代码）
 ├── first             一期课程代码
 └── second            二期课程代码
     ├── unit36-sep/   9月写的第36课代码文件夹
