@@ -4,10 +4,14 @@ export default [
         collapsed: true,
         items: [
             {text: "开始",link:"/qa/hello/"},
+            {text: "HelloWorld",link:"/qa/00"},
             {text:"变量",link:"/qa/05"},
             {text:"数据类型",link:"/qa/06"},
             {text:"运算符",link:"/qa/operator/"},
             {text:"控制语句",link:"/qa/control/"},
+            {text:"程序流程图",link:"/qa/01"},
+            {text:"字符与字符串",link:"/qa/02"},
+            {text:"数组",link:"/qa/03"},
             {text:"函数",link:"/qa/04"},
             {text:"递归",link:"/qa/10"},
             {text:"指针",link:"/qa/11"},
@@ -18,6 +22,9 @@ export default [
         collapsed: true,
         items: [
             {text:"Hello World",link:"/reading/hello/"},
+            {text:"变量与数据类型",link:"/reading/var/"},
+            {text:"函数",link:"/reading/function/"},
+            {text:"递归",link:"/reading/recursion/"},
             {text:"指针",link:"/reading/pointer/"},
         ]
     },
@@ -26,7 +33,7 @@ export default [
         collapsed: true,
         items: [
             {text:"刷题平台",link:"/coding/01"},
-            {text:"交换练习",link:"/coding/swap"},
+            {text:"新手村",link:"/coding/begin/"},
         ]
     }
 ]
