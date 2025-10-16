@@ -17,7 +17,6 @@ export default defineConfig({
     outline: [2, 3],
 
     nav: [
-      { text: '语雀思维导图', link: 'https://www.yuque.com/fcbyk/coke/bg7fvqckefgngy1f' },
       {
         text: '课堂代码',
         items: [
@@ -44,5 +43,9 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/fcbyk/coke-cc-notes' }
     ],
+  },
+  markdown:{
+    lineNumbers: true
   }
+
 })
