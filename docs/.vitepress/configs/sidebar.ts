@@ -22,7 +22,15 @@ export default [
         collapsed: true,
         items: [
             {text:"01 Hello World",link:"/reading/exp01/"},
-            {text:"02 变量与数据类型",link:"/reading/exp02/"}
+            {text:"02 变量与数据类型",link:"/reading/exp02/"},
+            {text:"03 运算符",link:"/reading/exp03/"},
+            {text:"04 控制语句",link:"/reading/exp04/"},
+            {text:"05 字符与字符串",link:"/reading/exp05/"},
+            {text:"06 数组",link:"/reading/exp06/"},
+            {text:"07 函数",link:"/reading/exp07/"},
+            {text:"08 递归",link:"/reading/exp08/"},
+            {text:"09 指针",link:"/reading/exp09/"},
+            {text:"10 结构体",link:"/reading/exp10/"},
         ]
     },
     {
