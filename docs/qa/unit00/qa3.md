@@ -1,8 +1,9 @@
-## CLion常见问题 
+
+---
 
 <CCollapseGroup>
 
-<CCollapse title="控制台中文乱码？">
+<CCollapse title="CLion控制台中文乱码，如何解决？">
 
 #### 方法一：使用C++临时改变控制台字符集
 > 主函数里，添加以下代码，设置控制台编码为UTF-8
