@@ -37,14 +37,14 @@ export default [
         collapsed: true,
         items: [
             {text:"刷题平台",link:"/coding/01"},
-            {text:"新手村",link:"/coding/begin/"},
+            {text:"新手村",link:"/coding/theme01/"},
         ]
     },
-    {
-        text: '数据结构',
-        collapsed: true,
-        items: [
-            {text:"链表",link:"/ds/01"},
-        ]
-    }
+    // {
+    //     text: '数据结构',
+    //     collapsed: true,
+    //     items: [
+    //         {text:"链表",link:"/ds/01"},
+    //     ]
+    // }
 ]
