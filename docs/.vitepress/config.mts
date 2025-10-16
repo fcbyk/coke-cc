@@ -4,7 +4,7 @@ import sidebar from './configs/sidebar'
 
 export default defineConfig({
 
-  title: "可乐老师 C++",
+  title: "可乐 C++",
 
   head: [['link', { rel: 'icon', type: "image/svg+xml", href: '/favicon.svg' }]],
 

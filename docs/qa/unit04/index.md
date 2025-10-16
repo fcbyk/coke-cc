@@ -39,11 +39,11 @@ C++控制语句是程序中的指令，用于**控制代码的执行顺序和逻
 
 </CCollapse>
 
-<!-- @include: c1.md -->
+<!-- @include: qa1.md -->
 
-<!-- @include: c2.md -->
+<!-- @include: qa2.md -->
 
-<!-- @include: c3.md -->
+<!-- @include: qa3.md -->
 
 </CCollapseGroup>
 
