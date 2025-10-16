@@ -10,9 +10,6 @@
 
 **类比**：就像不同形状的容器（杯子、瓶子、桶），每种容器适合存放不同的内容，有不同的容量和使用方式。
 
-<template #extra>
-    <CBadge text="核心概念" variant="outline" color="#ff4d4f" />
-</template>
 </CCollapse>
 
 <CCollapse title="C++基础数据类型有哪些？">
@@ -20,6 +17,10 @@
 C++基础数据类型是语言内置的、用于表示基本值的最小数据单元。
 
 包括 **`整型`**、**`浮点型`**、**`字符型`**、**`布尔型`**、**`空类型（void）`**。
+
+<template #extra>
+    <CBadge text="重点" variant="outline" color="#ff4d4f" />
+</template>
 
 </CCollapse>
 
@@ -126,8 +127,7 @@ cout << sizeof(double) << endl;
 
 - **显式转换**（强制）：
    ```cpp
-   double d = (double)42 / 5;  // C风格
-   float f = static_cast<float>(d);  // C++风格
+   double d = (double)42 / 5;
    ```
 
 </CCollapse>

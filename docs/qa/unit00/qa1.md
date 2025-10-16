@@ -31,10 +31,6 @@ C++代码本质是文本文件，电脑需要安装两个软件：
 
 如果需要纯净的`C++编译器`, 可以直接点此下载 [MinGW](https://github.com/niXman/mingw-builds-binaries/releases/download/15.2.0-rt_v13-rev0/x86_64-15.2.0-release-posix-seh-ucrt-rt_v13-rev0.7z)，下载后，需要解压并配置环境变量。
 
-<template #extra>
-    <CBadge text="重点" variant="outline" color="#ff4d4f" />
-</template>
-    
 </CCollapse>
 
 <CCollapse title="C++代码编辑器软件有哪些？">
@@ -49,10 +45,6 @@ C++的代码编辑器有很多，比如`DevC++`、`VSCode`、`CLion`、`Visual S
 
 传送门：[vscode官网](https://code.visualstudio.com/)、[CLion官网](https://www.jetbrains.com/zh-cn/clion/)
 
-<template #extra>
-    <CBadge text="重点" variant="outline" color="#ff4d4f" />
-</template>
-    
 </CCollapse>
 
 <CCollapse title="如何手动编译C++代码？">
@@ -86,10 +78,6 @@ Hello World!
 *   **`.obj`**： **目标文件**，编译器生成的中间文件。
 *   **`.exe`**： **window可执行文件**，最终的程序。
 *   **`.dll`**： **动态库**，运行时加载的库。
-
-<template #extra>
-    <CBadge text="重点" variant="outline" color="#ff4d4f" />
-</template>
 
 </CCollapse>
 

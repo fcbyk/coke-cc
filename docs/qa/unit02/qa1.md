@@ -18,9 +18,6 @@
 3. 变量名需要遵循标识符命名规则
 4. 变量可以在声明时或声明后赋值
 
-<template #extra>
-    <CBadge text="基础概念" variant="outline" color="#ff4d4f" />
-</template>
 </CCollapse>
 
 <CCollapse title="如何声明和初始化变量？">
@@ -43,9 +40,6 @@ auto count = 10;        // int类型
 auto rate = 3.14;       // double类型
 ```
 
-<template #extra>
-    <CBadge text="重点" variant="outline" color="#ff4d4f" />
-</template>
 </CCollapse>
 
 <CCollapse title="什么是变量的作用域？">
@@ -70,6 +64,10 @@ auto rate = 3.14;       // double类型
 
 3. **块作用域**：在{}内部声明
 
+<template #extra>
+    <CBadge text="重点" variant="outline" color="#ff4d4f" />
+</template>
+
 </CCollapse>
 
 <CCollapse title="什么是标识符？">
@@ -82,8 +80,9 @@ auto rate = 3.14;       // double类型
 - 不能用C++关键字（`int`/`for`/`return`等）
 
 <template #extra>
-    <CBadge text="基础规则" variant="outline" color="#ff4d4f" />
+    <CBadge text="重点" variant="outline" color="#ff4d4f" />
 </template>
+
 </CCollapse>
 
 <CCollapse title="什么是常量？">
@@ -160,6 +159,10 @@ nullptr   // C++11空指针
 
 字面量的类型可以通过后缀指定，如`3.14f`（float）
 
+<template #extra>
+    <CBadge text="重点" variant="outline" color="#ff4d4f" />
+</template>
+
 </CCollapse>
 
 
@@ -206,9 +209,6 @@ const int MAX_ATTEMPTS = 3;
 - 常量命名采用全大写格式
 - 布尔变量以`is`、`has`、`can`前缀开头
 
-<template #extra>
-    <CBadge text="最佳实践" variant="outline" color="#52c41aff" />
-</template>
 </CCollapse>
 
 </CCollapseGroup>

@@ -34,10 +34,6 @@ int main() {
 ```
 编译器会把这段代码翻译成类似：`11001010 10110011...`（一堆0和1）
 
-<template #extra>
-    <CBadge text="重点" variant="outline" color="#ff4d4f" />
-</template>
-
 </CCollapse>
 
 <CCollapse title="C++在日常生活中有哪些应用？">
@@ -52,7 +48,7 @@ C++隐藏在许多地方：
 
 <CCollapse title="什么是HelloWorld程序？">
 
-在学习任何编程语言时，第一个程序通常都是打印出“Hello World!”。这是编程世界的“敲门砖”，就像你第一次拿起笔写下自己的名字一样。
+在学习任何编程语言时，第一个程序通常都是打印出 **`"Hello World!"`**。这是编程世界的“敲门砖”，就像你第一次拿起笔写下自己的名字一样。
 
 HelloWorld是编程世界的"第一步"，是最简单的程序示例：
 
@@ -76,15 +72,21 @@ Hello World!
 <CCollapse title="C++程序的基本结构是怎样的？">
 
 基本结构包括：
-1. **头文件引入**：`#include <iostream>`，提供基本工具
-2. **命名空间声明**：`using namespace std;`，简化代码书写
-3. **主函数**：`int main() { }`，程序的起点和终点
-4. **语句**：`cout << "Hello World!" << endl;` 
-5. **返回值**：`return 0;`，表示程序正常结束
+1. **头文件引入**：`#include <iostream>`，可以看作一个工具箱
+2. **使用std命名空间**：`using namespace std;`，
+   - 工具箱里可能会有两个一样的工具，默认使用std的工具
+   - 比如有两把螺丝刀，默认拿属于小明那把螺丝刀
+3. **主函数**：`int main() { }`，程序的大门，程序从这里开始执行
+4. **语句**：`cout << "Hello World!" << endl;` 普通C++语句，往控制台打印数据
+5. **返回值**：`return 0;` 离开主函数，程序结束
+
+<template #extra>
+    <CBadge text="重点" variant="outline" color="#ff4d4f" />
+</template>
 
 </CCollapse>
 
-<CCollapse title="C++中有哪两大类语句？">
+<CCollapse title="C++中的两大类语句？">
 
 C++代码分为两类：
 1. **预处理器指令**：
@@ -97,6 +99,11 @@ C++代码分为两类：
    - 程序的主体部分
    - 必须以分号结束
    - 例如：`cout << "Hello World!" << endl;`
+
+<template #extra>
+    <CBadge text="重点" variant="outline" color="#ff4d4f" />
+</template>
+
 
 </CCollapse>
 

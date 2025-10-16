@@ -12,12 +12,11 @@
 
 类比：像俄罗斯套娃，打开一层后还是同样的结构，直到最小的套娃（基线条件）出现时停止。
 
-<template #extra>
-    <CBadge text="核心概念" variant="outline" color="#ff4d4f" />
-</template>
 </CCollapse>
 
 <CCollapse title="如何编写递归函数？">
+
+> [!TIP] 核心是关注转递的参数如何变化
 
 1. **确定基线条件（Base Case）：** 明确递归何时结束，也就是最简单的情况。
 2. **找出递归关系（Recursive Case）：** 将复杂问题分解为更小的同类问题。
@@ -92,9 +91,7 @@ int main() {
     return 0;
 }
 ```
-<template #extra>
-    <CBadge text="深入理解" variant="outline" color="#13c2c2" />
-</template>
+
 </CCollapse>
 
 </CCollapseGroup>

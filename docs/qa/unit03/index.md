@@ -35,6 +35,10 @@ C++表达式是由 **运算符** 和 **操作数** 组成的代码片段，它�
 
 表达式是C++程序的基本构建块，几乎所有的操作都是由表达式完成的。
 
+<template #extra>
+    <CBadge text="重点" variant="outline" color="#ff4d4f" />
+</template>
+
 </CCollapse>
 
 <CCollapse title="算术运算符有哪些？">

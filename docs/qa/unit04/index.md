@@ -23,6 +23,10 @@
 
 *任何复杂的程序都可以由这三种结构组合而成*
 
+<template #extra>
+    <CBadge text="重点" variant="outline" color="#ff4d4f" />
+</template>
+
 </CCollapse>
 
 <CCollapse title="什么是控制语句？">
