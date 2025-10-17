@@ -1,7 +1,24 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted, watch } from 'vue'
+import { useRouter } from 'vitepress'
 
-const isOOP = ref(false)
+const router = useRouter()
+
+// 从 localStorage 读取初始值，如果没有则默认为 false
+const isOOP = ref(localStorage.getItem('isOOP') === 'true')
+
+// 监听 isOOP 变化并保存到 localStorage
+watch(isOOP, (newValue) => {
+  localStorage.setItem('isOOP', newValue)
+  router.go(router.route.path)
+})
+
+// 确保在客户端才操作 localStorage
+onMounted(() => {
+  if (import.meta.client) {
+    isOOP.value = localStorage.getItem('isOOP') === 'true'
+  }
+})
 </script>
 
 <template>

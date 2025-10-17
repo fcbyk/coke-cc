@@ -65,7 +65,7 @@ ListNode* createNode(int data) {
 
 :::
 
-### 在尾部插入节点
+### 尾部添加节点
 
 ::: code-group
 
