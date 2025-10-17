@@ -1,8 +1,8 @@
 <h2 style="margin-top: 20px;" id="aaa">定义 Def</h2>
 
-### 节点类
+::: code-group
 
-```cpp
+```cpp [节点类]
 // 链表节点类
 template <typename T>
 class Node {
@@ -15,9 +15,7 @@ public:
 };
 ```
 
-### 链表类
-
-```cpp
+```cpp [链表类]
 // 链表类
 template <typename T>
 class LinkedList {
@@ -34,11 +32,18 @@ public:
 };
 ```
 
+:::
+
+
+
+
 ## 操作 OP
 
-### 尾部添加节点
+### 插入节点
 
-```cpp
+::: code-group
+
+```cpp [尾部插入]
 // 在链表尾部添加节点
 template <typename T>
 void LinkedList<T>::insertAtTail(T data) {
@@ -56,3 +61,6 @@ void LinkedList<T>::insertAtTail(T data) {
     size++;
 }
 ```
+
+:::
+
