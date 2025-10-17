@@ -106,3 +106,63 @@ void insertAtTail(ListNode* &head, int data) {
 :::
 
 
+### 打印链表
+
+::: code-group
+
+```cpp [伪代码]
+函数 printList(head):
+    current ← head           // 从头节点开始
+    while current != NULL:   // 当前节点不为空时循环
+        输出 current.data   // 打印当前节点的值
+        current ← current.next  // 移动到下一个节点
+    输出 "NULL"              // 表示链表结束
+```
+
+```cpp [示例]
+// 打印链表
+void printList(ListNode* head){
+    ListNode* current = head;
+    while (current != nullptr){
+        cout << current->data << " -> ";
+        current = current->next;
+    }
+    cout << "null" << endl;
+}
+```
+
+:::
+
+### 获取链表长度
+
+::: code-group
+
+```cpp [伪代码]
+函数 getLength(head):
+    length ← 0                // 初始化长度为0
+    current ← head            // 从头节点开始遍历
+    
+    while current != NULL:    // 当前节点不为空时循环
+        length ← length + 1   // 长度加1
+        current ← current.next // 移动到下一个节点
+    
+    返回 length               // 返回链表长度
+```
+
+```cpp [示例]
+// 获取链表长度
+int getLength(ListNode* head) {
+    int length = 0;
+    ListNode* current = head;
+    while (current != nullptr) {
+        length++;
+        current = current->next;
+    }
+    return length;
+}
+
+```
+
+:::
+
+
