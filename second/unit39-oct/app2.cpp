@@ -2,6 +2,14 @@
 #include <list>
 using namespace std;
 
+// 遍历 list
+void coutList(list<int> mylist) {
+    for (auto el : mylist) {
+        cout << el << " ";
+    }
+    cout << endl;
+}
+
 /**
  * 约瑟夫环
  */
@@ -14,6 +22,8 @@ int josephus(int n, int m) {
     for (int i = 1; i <= n; ++i) {
         people.push_back(i);
     }
+
+    // coutList(people);
 
     auto it = people.begin();
 

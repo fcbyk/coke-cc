@@ -10,4 +10,3 @@ project(first)
 set(CMAKE_CXX_STANDARD 14)
 
 # 添加可执行程序
-add_executable(app401 unit40-oct/app401.cpp)

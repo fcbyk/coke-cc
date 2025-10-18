@@ -120,7 +120,7 @@ ListNode* createNode(int data, ListNode* next = nullptr) {
 
 ```cpp [头部插入]
 // 在链表头部插入节点
-void insertAtHead(Node* &head, int data) {
+void insertAtHead(ListNode* &head, int data) {
     ListNode* newNode = createNode(data);
     newNode->next = head;
     head = newNode;
@@ -149,13 +149,13 @@ void insertAtTail(ListNode* &head, int data) {
 
 ```cpp [指定位置插入]
 // 添加节点到指定位置
-void insertAtPosition(Node* &head, int pos, int data) {
+void insertAtPosition(ListNode* &head, int pos, int data) {
     if (pos == 0) {
         insertAtHead(head, data);
         return;
     }
-    Node* newNode = new Node(val);
-    Node* current = head;
+    ListNode* newNode = createNode(data);
+    ListNode* current = head;
     for (int i = 0; i < pos-1 && current != nullptr; i++) {
         current = current->next;
     }
@@ -325,7 +325,7 @@ void printList(ListNode* head){
         if(current->next != nullptr) cout << " -> ";
         current = current->next;
     }
-    cout << "null" << endl;
+    cout << endl;
 }
 ```
 
