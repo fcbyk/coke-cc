@@ -9,4 +9,7 @@ project(first)
 # 设置 C++ 标准，即用哪个版本的编译器
 set(CMAKE_CXX_STANDARD 14)
 
-# 添加可执行程序
+add_executable(app1 unit41-nov/app1.cpp)
+add_executable(app2 unit41-nov/app2.cpp)
+add_executable(app3 unit41-nov/app3.cpp)
+add_executable(app4 unit41-nov/app4.cpp)
