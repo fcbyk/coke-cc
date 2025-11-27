@@ -8,5 +8,3 @@ project(second)
 
 # 设置 C++ 标准，即用哪个版本的编译器
 set(CMAKE_CXX_STANDARD 14)
-add_executable(app1 unit44-Nov/app1.cpp)
-add_executable(app2 unit44-Nov/app2.cpp)
