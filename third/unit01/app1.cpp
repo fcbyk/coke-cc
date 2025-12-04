@@ -114,6 +114,7 @@ int main(){
 //    cout << isPrime(6);
 //    cout << countPrime(2,100000);
 //    cout << primeFactor(21);
-    MatrixSum();
+//    MatrixSum();
+    MatrixSumOptimized();
     return 0;
 }
