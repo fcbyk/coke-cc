@@ -3,4 +3,5 @@ project(third)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(app2 unit04-dec/app2.cpp)
+
+add_executable(app1 unit05-dec/app1.cpp)
