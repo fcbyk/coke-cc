@@ -1,4 +1,5 @@
 #include <iostream>
+#include <windows.h>
 using namespace std;
 
 /**
@@ -39,10 +40,32 @@ void chickenRabbit(int heads, int legs) {
     cout << "无解" << endl;
 }
 
+// 模拟交通信号灯
+void rg_led() {
+    // // 用Beep模拟声音
+    // cout << "🔴 红灯" << endl;
+    // Beep(400, 1000);  // 频率400Hz，持续1秒
+    //
+    // cout << "🟢 绿灯" << endl;
+    // Beep(800, 1000);  // 频率800Hz
+
+    while(true) {
+        cout << "红灯 - 停！" << endl;
+        Sleep(3000);    // 等待3秒（3000毫秒）
+
+        cout << "黄灯 - 准备！" << endl;
+        Sleep(1000);
+
+        cout << "绿灯 - 走！" << endl;
+        Sleep(3000);
+    }
+}
+
 
 int main() {
     system("chcp 65001 > nul");
     // q1();
     // chickenRabbit(20,44);
+    rg_led();
     return 0;
 }
