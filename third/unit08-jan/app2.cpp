@@ -1,7 +1,7 @@
-#include <algorithm>
-#include <complex>
-#include <iostream>
-#include <vector>
+#include <algorithm>    // 算法
+#include <cmath>        // 数学
+#include <iostream>     // 基本输入输出
+#include <vector>       // 动态数组
 using namespace std;
 
 void q1();  // 音乐播放
@@ -10,19 +10,19 @@ void q3a();  // 寻宝 (双数组)
 void q3b();  // 寻宝 (结构体数组)
 
 int main() {
-    q3b();
+    q1();
     return 0;
 }
 
 void q1(){
 
-    // 接收输入
+    // 获取输入
     // n是曲子的数量，t为播放次数
     int n,t;
     cin >> n >> t;
     int list[n];
-    for (int music:list) {
-        cin >> music;
+    for (int i = 0; i < n; ++i) {
+        cin >> list[i];
     }
 
     // 依次打印播放结果
@@ -34,9 +34,8 @@ void q1(){
             if (list[j]>list[maxId]) maxId = j;
         }
 
-        // 输出结果
-        maxId++;     // 0-based 转 1-based
-        cout << maxId << endl;
+        // 输出结果 （注意不要污染 maxId）
+        cout << maxId+1 << endl;    // 转 1-based 输出
 
         // 清空当前播放的曲子权重
         int rest = list[maxId];
