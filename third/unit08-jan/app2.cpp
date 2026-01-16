@@ -4,6 +4,7 @@
 #include <vector>
 using namespace std;
 
+void q1();  // 音乐播放
 void q2();  // 图书管理员
 void q3a();  // 寻宝 (双数组)
 void q3b();  // 寻宝 (结构体数组)
@@ -11,6 +12,55 @@ void q3b();  // 寻宝 (结构体数组)
 int main() {
     q3b();
     return 0;
+}
+
+void q1(){
+
+    // 接收输入
+    // n是曲子的数量，t为播放次数
+    int n,t;
+    cin >> n >> t;
+    int list[n];
+    for (int music:list) {
+        cin >> music;
+    }
+
+    // 依次打印播放结果
+    for (int i = 0; i < t; ++i) {
+
+        // 找权重最大的
+        int maxId = 0;
+        for (int j = 0; j < n; ++j) {
+            if (list[j]>list[maxId]) maxId = j;
+        }
+
+        // 输出结果
+        maxId++;     // 0-based 转 1-based
+        cout << maxId << endl;
+
+        // 清空当前播放的曲子权重
+        int rest = list[maxId];
+        list[maxId] = 0;
+
+        // 重新分配权重
+        /*
+            0 1 2 3 4 5 (6个元素)
+            除6余多少
+            0 1 2 3 4 5
+        */
+        int index = 0;
+        while (rest > 0){
+            // 跳过当前播放的曲子
+            if(index%n == maxId){
+                index++;
+                continue;
+            };
+
+            list[index%n] +=1;  // 分配权重
+            rest--;    // 减少未分配的权重
+            index++;   // 索引更新
+        }
+    }
 }
 
 void q2() {
